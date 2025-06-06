@@ -1,4 +1,4 @@
 module.exports = {
-    PREFIX: '.', // Changé de ! à .
-    MENU_IMAGE_URL: 'https://i.imgur.com/....jpg' // URL de votre image
+    PREFIX: '.',
+    MENU_IMAGE_URL: 'https://files.catbox.moe/oqy437.jpeg'
 };
