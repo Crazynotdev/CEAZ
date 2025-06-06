@@ -37,6 +37,10 @@ async function connectWhatsApp(phoneNumber, chatId) {
     }
   });
 
+  client.ev.on('messages.upsert', (m) => {
+    console.log('Message reçu WhatsApp:', m.messages[0]?.message);
+});
+
   client.ev.on('creds.update', saveCreds);
   return client;
 }
